@@ -1,0 +1,61 @@
+﻿  Main.c
+c:\users\liav\desktop\sim\sim\sim\main.c(15): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(15): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(15): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(15): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(16): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(16): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(16): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(16): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(17): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(17): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(17): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(17): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(18): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(18): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(18): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(18): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(19): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(19): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(19): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(19): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(20): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(20): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(20): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(20): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(21): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(21): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(21): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(21): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(22): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(22): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(22): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(22): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(23): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(23): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(23): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(23): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(24): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(24): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(24): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(24): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(25): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(25): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(25): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(25): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(26): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(26): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(26): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(26): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(27): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(27): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(27): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(27): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(28): warning C4047: 'function': 'char' differs in levels of indirection from 'char *'
+c:\users\liav\desktop\sim\sim\sim\main.c(28): warning C4024: 'read_file': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(28): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+c:\users\liav\desktop\sim\sim\sim\main.c(28): warning C4024: 'read_file': different types for formal and actual parameter 3
+c:\users\liav\desktop\sim\sim\sim\main.c(33): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char'
+c:\users\liav\desktop\sim\sim\sim\main.c(33): warning C4024: 'fopen': different types for formal and actual parameter 2
+c:\users\liav\desktop\sim\sim\sim\main.c(39): warning C4715: 'read_file': not all control paths return a value
+  sim.vcxproj -> C:\Users\Liav\Desktop\sim\sim\Debug\sim.exe
