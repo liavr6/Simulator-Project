@@ -1,11 +1,22 @@
-//regular inclusions
 #include <stdlib.h> 
 #include <string.h>
 
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
-// CL arguments order defenition
+#define MAX_LINES 4096
+#define INST_SIZE 12
+#define DATA_SIZE 8
+#define INT_SIZE 32
+#define REGS 16
+#define IOREGS 23
+#define SECTORS 128
+#define SECTOR_SIZE	128		
+#define MAX_INPUT_LINE 500
+#define MONITOR_PIXELS (256*256)
+#define DISK_CYCLES 1024
+
+// CL arguments
 #define IMEMIN 1
 #define DMEMIN 2
 #define DISKIN 3
@@ -37,26 +48,4 @@
 #define MONITORC 'w'
 #define MONITOR_YUVC 'wb'
 
-
-//default parameter from class report requirments
-#define IOREGS 23
-#define DATA_SIZE 8
-#define INT_SIZE 32
-#define REGS 16
-#define SECTORS 128
-#define MAX_INPUT_LINE 500
-#define INST_SIZE 12
-#define MONITOR_PIXELS (256*256)
-#define DISK_CYCLES 1024
-#define MAX_LINES 4096
-#define SECTOR_SIZE	128		
-
-
-// define structs for main
-typedef struct instruction
-{
-	int opcode, rd, rs, rt, imm;
-}	INSTRUCTION;
-
-//function to read input files
-int read_file(FILE *fpointer, char chmod, char filename[]);
+int read_file(FILE *fpointer, char chmod, char filename[])

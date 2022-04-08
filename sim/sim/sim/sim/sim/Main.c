@@ -10,10 +10,17 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 	// initialize components
-	FILE *file_imemin = NULL, *file_dmemin = NULL, *file_diskin = NULL, *file_irq2in = NULL, *file_dmemout = NULL, *file_regout = NULL, 
-		*file_trace = NULL,		*file_hwregtrace = NULL, *file_cycles = NULL, *file_leds = NULL, *file_display7seg = NULL, 
-		*file_diskout = NULL, *file_monitor_txt = NULL, *file_monitor_yuv = NULL;
-	int pc = 0;
+	int registers[REGS] = { 0 };
+	int ioregisters[IOREGS] = { 0 };
+	int pc = 0; int irqstat = 0;
+
+	#pragma region fpRegion
+		//file pointers definition
+		FILE *file_imemin = NULL, *file_dmemin = NULL, *file_diskin = NULL, *file_irq2in = NULL, *file_dmemout = NULL, *file_regout = NULL, 
+			*file_trace = NULL,		*file_hwregtrace = NULL, *file_cycles = NULL, *file_leds = NULL, *file_display7seg = NULL, 
+			*file_diskout = NULL, *file_monitor_txt = NULL, *file_monitor_yuv = NULL;
+	#pragma endregion
+
 	//read the input files
 		read_file(file_hwregtrace, argv[HWREGTRACE], HWREGTRACEC);
 		read_file(file_trace, argv[CYCLES], CYCLESC);
@@ -47,7 +54,9 @@ int main(int argc, char *argv[])
 		//main work loop
 		do
 		{
-
+			//updating interuption station
+			irqstat = ((ioregisters[0] & ioregisters[3]) | (ioregisters[1] & ioregisters[4]) | (ioregisters[2] & ioregisters[5]));
+			ioregisters[8]++;//update current num of clock cycles
 		} while (pc != -1);
 }	
 
